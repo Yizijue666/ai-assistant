@@ -1,4 +1,4 @@
-from config import APP_NAME, VERSION
+from ai_assistant.config import APP_NAME, VERSION
 
 def main():
     print(APP_NAME)
