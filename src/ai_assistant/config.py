@@ -1,2 +1,15 @@
-APP_NAME = "AI Assistant"
-VERSION = "0.1.0"
+import os
+
+from dotenv import load_dotenv
+
+load_dotenv()
+
+APP_NAME = os.getenv(
+    "APP_NAME",
+    "AI Assistant"
+)
+
+VERSION = os.getenv(
+    "VERSION",
+    "0.1.0"
+)
